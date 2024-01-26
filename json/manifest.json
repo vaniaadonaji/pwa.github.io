@@ -1,0 +1,16 @@
+{
+    "name": "VDVT",
+    "short_name": "donajivt",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "icons": [
+      {
+        "src": "../img/vdvt.ico",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ]
+  }
+  
