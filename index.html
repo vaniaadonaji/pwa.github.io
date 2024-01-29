@@ -1,1 +1,60 @@
-Hola
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Principal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleMenu.css">
+    <link rel="stylesheet" href="../vendor/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="manifest" href="json/manifest.json">
+</head>
+<body>
+    <div id="idContenedor" class="container-fluid">
+        <header id="idEncbezado" class="row">
+            <h1>Mi Pagina Web && App</h1>
+        </header>
+        <nav id="idMenu" class="row">
+            <br>
+            <ul class="topnav">
+                <li>
+                    <a class="active" href="paginas/Inicio.html" target="iframeContenido">Inicio</a>
+                </li>
+                <li>
+                    <a href="paginas/Ejemplo1.html" target="iframeContenido">Ejemplo 1</a>
+                </li>
+                <li>
+                    <a href="paginas/ListaVideos.html" target="iframeContenido">Lista Videos</a>
+                </li>
+                <li class="right">
+                    <a href="paginas/Perfil.html" target="iframeContenido">Perfil</a>
+                </li>
+            </ul>
+        </nav>
+        <section id="idSeccion" class="row">
+            <iframe src="" frameborder="0" name="iframeContenido" class="col-md-12" width="100%" height="100%"></iframe>
+        </section>
+        <footer id="idPiePag" class="row">
+            <p>Aquí va el pie de página</p>
+        </footer>
+    </div>
+</body>
+<script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('js/service-worker.js').then(function(registration) {
+          console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        }, function(err) {
+          console.log('ServiceWorker registration failed: ', err);
+        });
+      });
+    }
+</script>  
+</html>
+
+        });
+      });
+    }
+</script>  
+</html>
